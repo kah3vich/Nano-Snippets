@@ -1,0 +1,86 @@
+{
+	"✅Snippet: Pug Img": {
+		"prefix": "pug-img",
+		"body": ["img(src=\"${1:path}\" alt=\"${2:alt}\")", "$0"],
+		"description": "✅Snippet: Pug Img"
+	},
+	"✅Snippet: Pug Loop": {
+		"prefix": "pug-loop",
+		"body": ["each _, i in Array(${1:count})", "$0"],
+		"description": "✅Snippet: Pug Loop"
+	},
+	"✅Snippet: Pug Optimization Image": {
+		"prefix": "pug-opi",
+		"body": [
+			"picture",
+			"\tsource(type=\"image/webp\" srcset=\"${1:path}.webp 1x, ${1:path}@2x.webp 2x\" media=\"(min-width: 1440px)\")",
+			"\tsource(srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" media=\"(min-width: 1440px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"${1:path}-medium.webp 1x, ${1:path}-medium@2x.webp 2x\"",
+			"\t\tmedia=\"(min-width: 1024px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-medium.png\t1x,",
+			"\t\t\t${1:path}-medium@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 1024px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-small.webp\t1x,",
+			"\t\t\t${1:path}-small@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-small.png\t1x,",
+			"\t\t\t${1:path}-small@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\")",
+			"\tsource(",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.webp\t1x,",
+			"\t\t\t${1:path}-xsmall@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\")",
+			"\tsource(",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.png\t1x,",
+			"\t\t\t${1:path}-xsmall@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\")",
+			"\timg(src=\"${1:path}.png\" srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" alt=\"image\")",
+			"$0"
+		],
+		"description": "✅Snippet: Pug Optimization Image"
+	},
+	"✅Snippet: Pug Swiper": {
+		"prefix": "pug-swiper",
+		"body": [
+			".swiper.${1:nameSlider}",
+			"\t.swiper-wrapper",
+			"\t\t.swiper-slide Slide",
+			"\t.swiper-controls",
+			"\t\t.swiper-button-next",
+			"\t\t.swiper-button-prev",
+			"\t\t.swiper-pagination",
+			"$0"
+		],
+		"description": "✅Snippet: Pug Swiper"
+	},
+	"✅Snippet: Pug Video": {
+		"prefix": "pug-video",
+		"body": [
+			"video(poster=\"${1:image}\" autoplay=\"autoplay\" loop=\"loop\" controls=\"controls\" tabindex=\"0\")",
+			"\tsource(src=\"${2:path}.webm\" type='video/webm; codecs=\"vp8, vorbis\"')",
+			"\t//- source(src=\"${2:path}.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"')",
+			"\t//- source(src=\"${2:path}.ogv\" type='video/ogg; codecs=\"theora, vorbis\"') ",
+			"$0"
+		],
+		"description": "✅Snippet: Pug Video"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

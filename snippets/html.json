@@ -1,0 +1,115 @@
+{
+	"✅Snippet: HTML Img": {
+		"prefix": "html-img",
+		"body": ["<img src=\"${1:path}\" alt=\"${2:alt}\" />", "$0"],
+		"description": "✅Snippet: HTML Img"
+	},
+	"✅Snippet: HTML Optimization Image": {
+		"prefix": "html-opi",
+		"body": [
+			"<picture>",
+			"\t<source",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"${1:path}.webp 1x, ${1:path}@2x.webp 2x\"",
+			"\t\tmedia=\"(min-width: 1440px)\" />",
+			"\t<source srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" media=\"(min-width: 1440px)\" />",
+			"\t<source",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"${1:path}-medium.webp 1x, ${1:path}-medium@2x.webp 2x\"",
+			"\t\tmedia=\"(min-width: 1024px)\" />",
+			"\t<source",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-medium.png    1x,",
+			"\t\t\t${1:path}-medium@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 1024px)\" />",
+			"\t<source",
+			"\t\ttype=\"image/webp\"",
+			"\tsrcset=\"",
+			"\t\t\t${1:path}-small.webp    1x,",
+			"\t\t\t${1:path}-small@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\" />",
+			"\t<source",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-small.png    1x,",
+			"\t\t\t${1:path}-small@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(min-width: 768px)\" />",
+			"\t<source",
+			"\t\ttype=\"image/webp\"",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.webp    1x,",
+			"\t\t\t${1:path}-xsmall@2x.webp 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\" />",
+			"\t<source",
+			"\t\tsrcset=\"",
+			"\t\t\t${1:path}-xsmall.png    1x,",
+			"\t\t\t${1:path}-xsmall@2x.png 2x",
+			"\t\t\"",
+			"\t\tmedia=\"(max-width: 767px)\" />",
+			"\t<img",
+			"\t\tsrc=\"${1:path}.png\"",
+			"\t\tsrcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\"",
+			"\t\talt=\"image\"",
+			"\t/>",
+			"</picture>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Optimization Image"
+	},
+	"✅Snippet: HTML Start": {
+		"prefix": "html-start",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"ru\">",
+			"\t<head>",
+			"\t\t<meta charset=\"utf-8\">",
+			"\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+			"\t\t<title>HTML Title</title>",
+			"\t\t<meta name=\"theme-color\" content=\"#ffffff\">",
+			"\t\t<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">",
+			"\t\t<link rel=\"stylesheet\" href=\"css/style.css\">",
+			"\t</head>",
+			"\t<body>",
+			"\t\t",
+			"\t\t<script src=\"js/main.js?_v=20230115201243\"></script>",
+			"\t</body>",
+			"</html>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Start"
+	},
+	"✅Snippet: HTML Swiper": {
+		"prefix": "html-swiper",
+		"body": [
+			"<div class=\"swiper ${1:nameSlider}Swiper\">",
+			"\t<div class=\"swiper-wrapper\">",
+			"\t\t<div class=\"swiper-slide\">Slide</div>",
+			"\t</div>",
+			"\t<div class=\"swiper-controls\">",
+			"\t\t<div class=\"swiper-button-next\"></div>",
+			"\t\t<div class=\"swiper-button-prev\"></div>",
+			"\t\t<div class=\"swiper-pagination\"></div>",
+			"\t</div>",
+			"</div>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Swiper"
+	},
+	"✅Snippet: HTML Video": {
+		"prefix": "html-video",
+		"body": [
+			"<video poster=\"${1:image}\" autoplay=\"autoplay\" loop=\"loop\" controls=\"controls\" tabindex=\"0\">",
+			"\t<source src=\"${2:path}.webm\" type='video/webm; codecs=\"vp8, vorbis\"' />",
+			"\t<!-- <source src=\"${2:path}.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"' /> -->",
+			"\t<!-- <source src=\"${2:path}.ogv\" type='video/ogg; codecs=\"theora, vorbis\"' /> -->",
+			"</video>",
+			"$0"
+		],
+		"description": "✅Snippet: HTML Video"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

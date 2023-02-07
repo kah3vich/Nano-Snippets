@@ -1,0 +1,363 @@
+{
+	// JavaScript
+
+	"✅Snippet: Debugger": {
+		"prefix": "debugger",
+		"body": ["debugger; // TODO: debugger", "$0"],
+		"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
+	},
+	"✅Snippet: JavaScript Swiper": {
+		"prefix": "js-swiper",
+		"body": [
+			"const ${1:nameSlider}Swiper = new Swiper(\".${1:nameSlider}Swiper\", {",
+			"\tnavigation: {",
+			"\t\tnextEl: \".${1:nameSlider}Swiper .swiper-controls .swiper-button-next\",",
+			"\t\tprevEl: \".${1:nameSlider}Swiper .swiper-controls .swiper-button-prev\",",
+			"\t},",
+			"\tpagination: {",
+			"\t\tel: \".${1:nameSlider}Swiper .swiper-controls .swiper-pagination\",",
+			"\t},",
+			"});",
+			"$0"
+		],
+		"description": "✅Snippet: JavaScript Swiper"
+	},
+	"✅Snippet: console.log": {
+		"prefix": "log",
+		"body": ["console.log('${1:element}    ', ${1:element})", "$0"],
+		"description": "✅Snippet: console.log"
+	},
+	"✅Snippet: setTimeout": {
+		"prefix": "settime",
+		"body": ["setTimeout(() => {", "\t${1:code}", "}, ${2:timeout});", "$0"],
+		"description": "✅Snippet: setTimeout"
+	},
+	"✅Snippet: Try Catch": {
+		"prefix": "try",
+		"body": ["try {", "\t${1:code}", "} catch (e) {", "\tconsole.error('Error', e)", "}", "$0"],
+		"description": "✅Snippet: Try Catch"
+	},
+
+	// React
+
+	"✅Snippet: Functional component": {
+		"prefix": "fc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ children }) => {",
+			"\treturn <>{children}</>",
+			"}",
+			"$0"
+		],
+		"description": "✅Snippet: Functional Component"
+	},
+	"✅Snippet: Memo Functional Component": {
+		"prefix": "mfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }) => {",
+			"\treturn <>{data}</>",
+			"}",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
+			"$0"
+		],
+		"description": "✅Snippet: Memo Functional Component"
+	},
+	"✅Snippet: Memo TypeScript Functional Component": {
+		"prefix": "mtfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
+			"\tdata: string;",
+			"}",
+			"",
+			"const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }: I${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
+			"\treturn <>{data}</>",
+			"}",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
+			"$0"
+		],
+		"description": "✅Snippet: Memo TypeScript Functional Component"
+	},
+	"✅Snippet: TypeScript Functional Component": {
+		"prefix": "tfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
+			"\tchildren: React.ReactNode;",
+			"}",
+			"",
+			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ children }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
+			"\treturn <>{children}</>",
+			"}",
+			"$0"
+		],
+		"description": "✅Snippet: TypeScript Functional Component"
+	},
+	"✅Snippet: React Hook useCallback - memosations of function": {
+		"prefix": "useCallback",
+		"body": ["useCallback(() => ${1:code}, [${2:dependencies}])", "$0"],
+		"description": "✅Snippet: React Hook useCallback - memosations of function"
+	},
+	"✅Snippet: React Hook useEffect": {
+		"prefix": "useEffect",
+		"body": ["useEffect(() => {", "\t${1:code}", "}, [${2:dependencies}]);", "$0"],
+		"description": "✅Snippet: React Hook useEffect"
+	},
+	"✅Snippet: React Hook useId": {
+		"prefix": "useId",
+		"body": ["const id${1:Name} = useId()", "$0"],
+		"description": "✅Snippet: React Hook useId"
+	},
+	"✅Snippet: React Hook useImperativeHandle": {
+		"prefix": "useImperativeHandle",
+		"body": ["useImperativeHandle(${1:ref}, () => ({", "\t${2:code}", "}));", "$0"],
+		"description": "✅Snippet: React Hook useImperativeHandle"
+	},
+	"✅Snippet: React Hook useLayoutEffect": {
+		"prefix": "useLayoutEffect",
+		"body": ["useLayoutEffect(() => {", "\t${1:code}", "}, [${2:dependencies}]);", "$0"],
+		"description": "✅Snippet: React Hook useLayoutEffect"
+	},
+	"✅Snippet: useEffect -> console.log": {
+		"prefix": "uselog",
+		"body": [
+			"useEffect(() => {",
+			"\tconsole.log('${1:element}    ', ${1:element})",
+			"}, [${1:element}])",
+			"$0"
+		],
+		"description": "✅Snippet: useEffect -> console.log"
+	},
+	"✅Snippet: React Hook useMemo - memosations of meaning": {
+		"prefix": "useMemo",
+		"body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
+		"description": "✅Snippet: React Hook useMemo - memosations of meaning"
+	},
+	"✅Snippet: React Hook useRef": {
+		"prefix": "useRef",
+		"body": ["const ref${1:Name} = useRef(null)", "$0"],
+		"description": "✅Snippet: React Hook useRef"
+	},
+	"✅Snippet: React Hook useState": {
+		"prefix": "useState",
+		"body": ["const [${1:value}, set${2:change}] = useState(null);", "$0"],
+		"description": "✅Snippet: React Hook useState"
+	},
+
+	// Style (CSS)
+
+	"✅Snippet: Style After": {
+		"prefix": "style-after",
+		"body": [
+			":after {",
+			"\tcontent: '';",
+			"\tposition: absolute;",
+			"\ttop: ${1:top};",
+			"\tleft: ${2:left};",
+			"\t$0",
+			"}",
+			""
+		],
+		"description": "✅Snippet: Style After"
+	},
+	"✅Snippet: Style Base": {
+		"prefix": "style-base",
+		"body": [
+			"*,",
+			"*::before,",
+			"*::after {",
+			"\tbox-sizing: border-box;",
+			"\tpadding: 0;",
+			"\tmargin: 0;",
+			"\tuser-select: text;",
+			"\toutline:none;",
+			"}",
+			"",
+			"body {",
+			"\twidth: 100%;",
+			"\tfont-family: Roboto;",
+			"\tfont-size: 16px;",
+			"}",
+			"",
+			"a {",
+			"\ttext-decoration: none;",
+			"}",
+			"",
+			"ul {",
+			"\tlist-style: none;",
+			"}",
+			"",
+			"input, textarea {",
+			"\toutline:none;",
+			"\t-webkit-appearance: none;",
+			"\t-webkit-border-radius: 0;",
+			"}",
+			"",
+			"input:focus, textarea:focus {",
+			"\toutline:none;",
+			"}",
+			"",
+			"input {",
+			"\tpadding: 0;",
+			"\tmargin: 0;",
+			"\tborder: none;",
+			"\toutline: none;",
+			"}",
+			"",
+			"textarea {",
+			"\tresize: none;",
+			"}",
+			"",
+			"button {",
+			"\tpadding: 0;",
+			"\tborder: none;",
+			"\tcursor: pointer;",
+			"\toutline: none;",
+			"}",
+			"",
+			"ol,",
+			"ul {",
+			"\tpadding-left: 0;",
+			"}",
+			"",
+			"dl,",
+			"ol,",
+			"ul {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			"p {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			".h1,",
+			".h2,",
+			".h3,",
+			".h4,",
+			".h5,",
+			".h6,",
+			"h1,",
+			"h2,",
+			"h3,",
+			"h4,",
+			"h5,",
+			"h6 {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			".containers {",
+			"\tmax-width: 1440px;",
+			"\tpadding: 0 165px;",
+			"\tmargin: 0 auto;",
+			"\twidth: 100%;",
+			"}",
+			"",
+			".display-n {",
+			"\tdisplay: none !important;",
+			"}",
+			"",
+			"opacity-h {",
+			"\topacity: 0 !important;",
+			"}",
+			"",
+			"$0"
+		],
+		"description": "✅Snippet: Style Base"
+	},
+	"✅Snippet: Style Before": {
+		"prefix": "style-before",
+		"body": [
+			":before {",
+			"\tcontent: '';",
+			"\tposition: absolute;",
+			"\ttop: ${1:top};",
+			"\tleft: ${2:left};",
+			"\t$0",
+			"}",
+			""
+		],
+		"description": "✅Snippet: Style Before"
+	},
+	"✅Snippet: Style Flex Scheme": {
+		"prefix": "style-flex",
+		"body": [
+			"display: flex;",
+			"flex-direction: ${1:row};",
+			"align-items: ${2:flex-start};",
+			"justify-content: ${3:flex-start};",
+			"gap: ${4:0px};",
+			"flex-wrap: ${5:no-wrap};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Flex Scheme"
+	},
+	"✅Snippet: Style Text Limit": {
+		"prefix": "style-tl",
+		"body": [
+			"overflow: hidden;",
+			"text-overflow: ellipsis;",
+			"display: -webkit-box;",
+			"-webkit-line-clamp: ${1:limit number};",
+			"-webkit-box-orient: vertical;",
+			"$0"
+		],
+		"description": "✅Snippet: Style Text Limit"
+	},
+	"✅Snippet: Style Transition": {
+		"prefix": "style-trans",
+		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
+		"description": "✅Snippet: Style Transition"
+	},
+	"✅Snippet: Style Transparent Text": {
+		"prefix": "style-tt",
+		"body": [
+			"-webkit-text-fill-color: transparent;",
+			"-webkit-text-stroke: ${1:size}px ${2:color};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Transparent Text"
+	},
+	"✅Snippet: Style Text Wrap": {
+		"prefix": "style-tw",
+		"body": [
+			"overflow-wrap: break-word;",
+			"word-wrap: break-word;",
+			"-webkit-hyphens: auto;",
+			"-ms-hyphens: auto;",
+			"-moz-hyphens: auto;",
+			"hyphens: auto;",
+			"$0"
+		],
+		"description": "✅Snippet: Style Text Wrap"
+	},
+
+	// TypeScript
+
+	"✅Snippet: TypeScript Enum": {
+		"prefix": "enum",
+		"body": ["export enum E${1:Name} {", "    ${2:code}", "}", "$0"],
+		"description": "✅Snippet: TypeScript Enum"
+	},
+	"✅Snippet: TypeScript Interface ": {
+		"prefix": "interface",
+		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0 "],
+		"description": "✅Snippet: TypeScript Interface "
+	},
+	"✅Snippet: TypeScript Type": {
+		"prefix": "type",
+		"body": ["export type T${1:Name} = {", "    ${2:code}", "}", "$0"],
+		"description": "✅Snippet: TypeScript Type"
+	}
+}
+
+//| 🔥 by kah3vich 🔥

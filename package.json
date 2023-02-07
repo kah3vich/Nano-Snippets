@@ -2,46 +2,92 @@
 	"name": "nanosnippets",
 	"displayName": "Nano-Snippets",
 	"description": "",
-	"version": "0.0.5",
+	"version": "0.0.8",
 	"publisher": "kah3vich",
-	"icon": "",
 	"repository": {
 		"type": "git",
 		"url": ""
 	},
-	"keywords": [
-		"React",
-		"React JS",
-		"React Snippets"
-	],
 	"engines": {
 		"vscode": "^1.63.0"
+	},
+	"preview": false,
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
 	},
 	"categories": [
 		"Snippets"
 	],
+	"icon": "assets/logo.png",
+	"license": "GPL-3.0-only",
 	"activationEvents": [
 		"onCommand:extension.stayClassy"
 	],
+	"author": {
+		"email": "test@gmail.com",
+		"name": "Nik Bild",
+		"url": "https://github.com/kah3vich"
+	},
+	"bugs": {
+		"url": "https://github.com/kah3vich/Nano-Snippets/issues",
+		"email": "test@gmail.com"
+	},
+	"keywords": [
+		"nano",
+		"nano-snippets",
+		"nanosnippets",
+		"snippet",
+		"snippets",
+		"react",
+		"html",
+		"scss",
+		"style",
+		"css",
+		"pug",
+		"ts",
+		"js",
+		"typescript",
+		"javascript",
+		"sass",
+		"jquery"
+	],
+	"homepage": "",
 	"main": "./out/src/extension",
 	"browser": "./out/src/extension",
 	"contributes": {
 		"snippets": [
 			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "pug",
+				"path": "./snippets/pug.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/scss.json"
+			},
+			{
+				"language": "jquery",
+				"path": "./snippets/jquery.json"
+			},
+			{
 				"language": "javascriptreact",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/react.json"
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/react.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/snippets-ts.json"
+				"path": "./snippets/react.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/snippets-ts.json"
+				"path": "./snippets/react.json"
 			}
 		],
 		"commands": [
@@ -52,6 +98,7 @@
 		]
 	},
 	"scripts": {
+		"build": "vsce package",
 		"vscode:prepublish": "tsc -p ./",
 		"compile": "tsc -watch -p ./",
 		"test": "node ./node_modules/@vscode/test-electron/out/runTest.js"
