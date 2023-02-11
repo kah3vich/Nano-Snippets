@@ -1,60 +1,26 @@
 {
 	"name": "nanosnippets",
-	"displayName": "Nano-Snippets",
-	"description": "",
-	"version": "0.0.10",
 	"publisher": "kah3vich",
+	"displayName": "Nano-Snippets",
+	"description": "Snippets for various technologies and languages, taking into account all modern trends and rules.",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
+	"version": "0.0.11",
 	"engines": {
 		"vscode": "^1.63.0"
-	},
-	"preview": false,
-	"galleryBanner": {
-		"color": "#ffffff",
-		"theme": "light"
 	},
 	"categories": [
 		"Snippets"
 	],
-	"icon": "assets/logo.png",
-	"license": "GPL-3.0-only",
-	"activationEvents": [
-		"onCommand:extension.stayClassy"
-	],
-	"author": {
-		"email": "test@gmail.com",
-		"name": "Nik Bild",
-		"url": "https://github.com/kah3vich"
+	"preview": true,
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "light"
 	},
-	"bugs": {
-		"url": "https://github.com/kah3vich/Nano-Snippets/issues",
-		"email": "test@gmail.com"
-	},
-	"keywords": [
-		"nano",
-		"nano-snippets",
-		"nanosnippets",
-		"snippet",
-		"snippets",
-		"react",
-		"html",
-		"scss",
-		"style",
-		"css",
-		"pug",
-		"ts",
-		"js",
-		"typescript",
-		"javascript",
-		"sass",
-		"jquery"
-	],
-	"homepage": "",
-	"main": "./out/src/extension",
-	"browser": "./out/src/extension",
+	"main": "./out/src/extension.js",
+	"browser": "./out/src/extension.js",
 	"contributes": {
 		"snippets": [
 			{
@@ -93,6 +59,38 @@
 			}
 		]
 	},
+	"activationEvents": [
+		"onCommand:extension.stayClassy"
+	],
+	"icon": "assets/logo.png",
+	"license": "GPL-3.0-only",
+	"author": {
+		"name": "kah3vich",
+		"url": "https://github.com/kah3vich"
+	},
+	"bugs": {
+		"url": "https://github.com/kah3vich/Nano-Snippets/issues"
+	},
+	"keywords": [
+		"nano",
+		"snippets",
+		"nanosnippets",
+		"snippet",
+		"snippets",
+		"react",
+		"html",
+		"scss",
+		"style",
+		"css",
+		"pug",
+		"ts",
+		"js",
+		"typescript",
+		"javascript",
+		"sass",
+		"jquery"
+	],
+	"homepage": "https://github.com/kah3vich/Nano-Snippets/readme.md",
 	"scripts": {
 		"build": "vsce package",
 		"vscode:prepublish": "tsc -p ./",
