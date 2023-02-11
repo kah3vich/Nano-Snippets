@@ -2,7 +2,7 @@
 	"name": "nanosnippets",
 	"displayName": "Nano-Snippets",
 	"description": "",
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"publisher": "kah3vich",
 	"repository": {
 		"type": "git",
@@ -13,8 +13,8 @@
 	},
 	"preview": false,
 	"galleryBanner": {
-		"color": "#000000",
-		"theme": "dark"
+		"color": "#ffffff",
+		"theme": "light"
 	},
 	"categories": [
 		"Snippets"
@@ -62,7 +62,7 @@
 				"path": "./snippets/html.json"
 			},
 			{
-				"language": "pug",
+				"language": "jade",
 				"path": "./snippets/pug.json"
 			},
 			{
@@ -70,24 +70,20 @@
 				"path": "./snippets/scss.json"
 			},
 			{
-				"language": "jquery",
-				"path": "./snippets/jquery.json"
-			},
-			{
 				"language": "javascriptreact",
-				"path": "./snippets/react.json"
+				"path": "./snippets/javascript.json"
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/react.json"
+				"path": "./snippets/javascript.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/react.json"
+				"path": "./snippets/javascript.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/react.json"
+				"path": "./snippets/javascript.json"
 			}
 		],
 		"commands": [

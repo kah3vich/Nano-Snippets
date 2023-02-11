@@ -357,6 +357,29 @@
 		"prefix": "type",
 		"body": ["export type T${1:Name} = {", "    ${2:code}", "}", "$0"],
 		"description": "✅Snippet: TypeScript Type"
+	},
+
+	// Jquery
+
+	"✅Snippet: Jquery Add Class": {
+		"prefix": "jq-add",
+		"body": ["$('${1:name}').addClass('${2:class}');", "$0"],
+		"description": "✅Snippet: Jquery Add Class"
+	},
+	"✅Snippet: Jquery On": {
+		"prefix": "jq-on",
+		"body": ["$('${1:name}').on('${2:params}', function (e) {", "     ${3:code}", "});", "$0"],
+		"description": "✅Snippet: Jquery On"
+	},
+	"✅Snippet: Jquery Ready": {
+		"prefix": "jq-ready",
+		"body": ["$(document).ready(function () {", "\t${1:code}", "});", "$0"],
+		"description": "✅Snippet: Jquery Ready"
+	},
+	"✅Snippet: Jquery Remove Class": {
+		"prefix": "jq-remove",
+		"body": ["$('${1:name}').removeClass('${2:class}');", "$0"],
+		"description": "✅Snippet: Jquery Remove Class"
 	}
 }
 
