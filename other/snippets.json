@@ -1,0 +1,233 @@
+{
+	"config": [
+		{
+			"title": "TypeScript",
+			"snippets": [
+				{
+					"name": "type",
+					"description": "..."
+				},
+				{
+					"name": "interface",
+					"description": "..."
+				},
+				{
+					"name": "enum",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "React",
+			"snippets": [
+				{
+					"name": "fc",
+					"description": "..."
+				},
+				{
+					"name": "mfc",
+					"description": "..."
+				},
+				{
+					"name": "mtfc",
+					"description": "..."
+				},
+				{
+					"name": "tfc",
+					"description": "..."
+				},
+				{
+					"name": "useCallback",
+					"description": "..."
+				},
+				{
+					"name": "useEffect",
+					"description": "..."
+				},
+				{
+					"name": "useId",
+					"description": "..."
+				},
+				{
+					"name": "useImperativeHandle",
+					"description": "..."
+				},
+				{
+					"name": "useLayoutEffect",
+					"description": "..."
+				},
+				{
+					"name": "uselog",
+					"description": "..."
+				},
+				{
+					"name": "useMemo",
+					"description": "..."
+				},
+				{
+					"name": "useRef",
+					"description": "..."
+				},
+				{
+					"name": "useState",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "JavaScript",
+			"snippets": [
+				{
+					"name": "debugger",
+					"description": "..."
+				},
+				{
+					"name": "log",
+					"description": "..."
+				},
+				{
+					"name": "try",
+					"description": "..."
+				},
+				{
+					"name": "settime",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "HTML",
+			"snippets": [
+				{
+					"name": "html-img",
+					"description": "..."
+				},
+				{
+					"name": "html-opi",
+					"description": "..."
+				},
+				{
+					"name": "html-start",
+					"description": "..."
+				},
+				{
+					"name": "html-video",
+					"description": "..."
+				},
+				{
+					"name": "html-swiper",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "Pug",
+			"snippets": [
+				{
+					"name": "pug-img",
+					"description": "..."
+				},
+				{
+					"name": "pug-opi",
+					"description": "..."
+				},
+				{
+					"name": "pug-loop",
+					"description": "..."
+				},
+				{
+					"name": "pug-video",
+					"description": "..."
+				},
+				{
+					"name": "pug-swiper",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "CSS",
+			"snippets": [
+				{
+					"name": "style-after",
+					"description": "..."
+				},
+				{
+					"name": "style-base",
+					"description": "..."
+				},
+				{
+					"name": "style-before",
+					"description": "..."
+				},
+				{
+					"name": "style-flex",
+					"description": "..."
+				},
+				{
+					"name": "style-tl",
+					"description": "..."
+				},
+				{
+					"name": "style-trans",
+					"description": "..."
+				},
+				{
+					"name": "style-tt",
+					"description": "..."
+				},
+
+				{
+					"name": "style-tw",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "SCSS",
+			"snippets": [
+				{
+					"name": "scss-flex",
+					"description": "..."
+				},
+				{
+					"name": "scss-font",
+					"description": "..."
+				},
+				{
+					"name": "scss-grid",
+					"description": "..."
+				},
+				{
+					"name": "scss-img",
+					"description": "..."
+				},
+				{
+					"name": "scss-transition",
+					"description": "..."
+				}
+			]
+		},
+		{
+			"title": "Jquery",
+			"snippets": [
+				{
+					"name": "jq-add",
+					"description": "..."
+				},
+				{
+					"name": "jq-on",
+					"description": "..."
+				},
+				{
+					"name": "jq-ready",
+					"description": "..."
+				},
+				{
+					"name": "jq-remove",
+					"description": "..."
+				}
+			]
+		}
+	]
+}

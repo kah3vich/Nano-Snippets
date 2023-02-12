@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -30,6 +30,10 @@
 			{
 				"language": "jade",
 				"path": "./snippets/pug.json"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/scss.json"
 			},
 			{
 				"language": "scss",

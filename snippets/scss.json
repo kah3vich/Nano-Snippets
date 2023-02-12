@@ -1,4 +1,6 @@
 {
+	//! SCSS
+
 	"✅Snippet: SCSS Flex Mixin": {
 		"prefix": "scss-flex",
 		"body": ["@include flexStyle(${1:flex-start}, ${2:flex-start}, ${3:row}, ${4:0px});", "$0"],
@@ -23,6 +25,196 @@
 		"prefix": "scss-transition",
 		"body": ["@include transitionStyle(${1:0.5s}, ${2:ease});", "$0"],
 		"description": "✅Snippet: SCSS Transition Mixin"
+	},
+
+	//! Style (CSS)
+
+	"✅Snippet: Style After": {
+		"prefix": "style-after",
+		"body": [
+			":after {",
+			"\tcontent: '';",
+			"\tposition: absolute;",
+			"\ttop: ${1:top};",
+			"\tleft: ${2:left};",
+			"\t$0",
+			"}",
+			""
+		],
+		"description": "✅Snippet: Style After"
+	},
+	"✅Snippet: Style Base": {
+		"prefix": "style-base",
+		"body": [
+			"*,",
+			"*::before,",
+			"*::after {",
+			"\tbox-sizing: border-box;",
+			"\tpadding: 0;",
+			"\tmargin: 0;",
+			"\tuser-select: text;",
+			"\toutline:none;",
+			"}",
+			"",
+			"body {",
+			"\twidth: 100%;",
+			"\tfont-family: Roboto;",
+			"\tfont-size: 16px;",
+			"}",
+			"",
+			"a {",
+			"\ttext-decoration: none;",
+			"}",
+			"",
+			"ul {",
+			"\tlist-style: none;",
+			"}",
+			"",
+			"input, textarea {",
+			"\toutline:none;",
+			"\t-webkit-appearance: none;",
+			"\t-webkit-border-radius: 0;",
+			"}",
+			"",
+			"input:focus, textarea:focus {",
+			"\toutline:none;",
+			"}",
+			"",
+			"input {",
+			"\tpadding: 0;",
+			"\tmargin: 0;",
+			"\tborder: none;",
+			"\toutline: none;",
+			"}",
+			"",
+			"textarea {",
+			"\tresize: none;",
+			"}",
+			"",
+			"button {",
+			"\tpadding: 0;",
+			"\tborder: none;",
+			"\tcursor: pointer;",
+			"\toutline: none;",
+			"}",
+			"",
+			"ol,",
+			"ul {",
+			"\tpadding-left: 0;",
+			"}",
+			"",
+			"dl,",
+			"ol,",
+			"ul {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			"p {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			".h1,",
+			".h2,",
+			".h3,",
+			".h4,",
+			".h5,",
+			".h6,",
+			"h1,",
+			"h2,",
+			"h3,",
+			"h4,",
+			"h5,",
+			"h6 {",
+			"\tmargin-top: 0;",
+			"\tmargin-bottom: 0;",
+			"}",
+			"",
+			".containers {",
+			"\tmax-width: 1440px;",
+			"\tpadding: 0 165px;",
+			"\tmargin: 0 auto;",
+			"\twidth: 100%;",
+			"}",
+			"",
+			".display-n {",
+			"\tdisplay: none !important;",
+			"}",
+			"",
+			"opacity-h {",
+			"\topacity: 0 !important;",
+			"}",
+			"",
+			"$0"
+		],
+		"description": "✅Snippet: Style Base"
+	},
+	"✅Snippet: Style Before": {
+		"prefix": "style-before",
+		"body": [
+			":before {",
+			"\tcontent: '';",
+			"\tposition: absolute;",
+			"\ttop: ${1:top};",
+			"\tleft: ${2:left};",
+			"\t$0",
+			"}",
+			""
+		],
+		"description": "✅Snippet: Style Before"
+	},
+	"✅Snippet: Style Flex Scheme": {
+		"prefix": "style-flex",
+		"body": [
+			"display: flex;",
+			"flex-direction: ${1:row};",
+			"align-items: ${2:flex-start};",
+			"justify-content: ${3:flex-start};",
+			"gap: ${4:0px};",
+			"flex-wrap: ${5:no-wrap};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Flex Scheme"
+	},
+	"✅Snippet: Style Text Limit": {
+		"prefix": "style-tl",
+		"body": [
+			"overflow: hidden;",
+			"text-overflow: ellipsis;",
+			"display: -webkit-box;",
+			"-webkit-line-clamp: ${1:limit number};",
+			"-webkit-box-orient: vertical;",
+			"$0"
+		],
+		"description": "✅Snippet: Style Text Limit"
+	},
+	"✅Snippet: Style Transition": {
+		"prefix": "style-trans",
+		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
+		"description": "✅Snippet: Style Transition"
+	},
+	"✅Snippet: Style Transparent Text": {
+		"prefix": "style-tt",
+		"body": [
+			"-webkit-text-fill-color: transparent;",
+			"-webkit-text-stroke: ${1:size}px ${2:color};",
+			"$0"
+		],
+		"description": "✅Snippet: Style Transparent Text"
+	},
+	"✅Snippet: Style Text Wrap": {
+		"prefix": "style-tw",
+		"body": [
+			"overflow-wrap: break-word;",
+			"word-wrap: break-word;",
+			"-webkit-hyphens: auto;",
+			"-ms-hyphens: auto;",
+			"-moz-hyphens: auto;",
+			"hyphens: auto;",
+			"$0"
+		],
+		"description": "✅Snippet: Style Text Wrap"
 	}
 }
 
