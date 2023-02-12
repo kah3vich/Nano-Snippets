@@ -33,6 +33,6 @@
 
 <br/>
 
-### `html-img` -
+### `html-img` - 1
 
 <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html-img.png" alt="code:html-img">
