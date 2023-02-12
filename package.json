@@ -7,14 +7,14 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
-	"version": "0.0.11",
+	"version": "0.0.13",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
 	"categories": [
 		"Snippets"
 	],
-	"preview": true,
+	"preview": false,
 	"galleryBanner": {
 		"color": "#ffffff",
 		"theme": "light"
@@ -54,13 +54,13 @@
 		],
 		"commands": [
 			{
-				"command": "extension.stayClassy",
-				"title": "React: class to className"
+				"command": "nano-snippets",
+				"title": "Nano Snippets"
 			}
 		]
 	},
 	"activationEvents": [
-		"onCommand:extension.stayClassy"
+		"onCommand:nano-snippets"
 	],
 	"icon": "assets/logo.png",
 	"license": "GPL-3.0-only",

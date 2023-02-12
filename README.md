@@ -60,3 +60,61 @@
 ### `html-opi`
 
 <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-opi.png" alt="code:html-opi">
+
+<br/>
+
+## Pug Snippets
+
+<br/>
+
+### `pug-img`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-img.png" alt="code:pug-img">
+
+<br/>
+
+### `pug-video`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-video.png" alt="code:pug-video">
+
+<br/>
+
+### `pug-swiper`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-swiper.png" alt="code:pug-swiper">
+
+<br/>
+
+### `pug-loop`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-loop.png" alt="code:pug-loop">
+
+<br/>
+
+### `pug-opi`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-opi.png" alt="code:pug-opi">
+
+<br/>
+
+## CSS Snippets
+
+<br/>
+
+## SCSS Snippets
+
+<br/>
+
+## JavaScript Snippets
+
+<br/>
+
+## TypeScript Snippets
+
+<br/>
+
+## React Snippets
+
+<br/>
+
+## Jquery Snippets
