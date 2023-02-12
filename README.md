@@ -69,31 +69,31 @@
 
 ### `pug-img`
 
-<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-img.png" alt="code:pug-img">
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/pug/pug-img.png" alt="code:pug-img">
 
 <br/>
 
 ### `pug-video`
 
-<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-video.png" alt="code:pug-video">
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/pug/pug-video.png" alt="code:pug-video">
 
 <br/>
 
 ### `pug-swiper`
 
-<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-swiper.png" alt="code:pug-swiper">
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/pug/pug-swiper.png" alt="code:pug-swiper">
 
 <br/>
 
 ### `pug-loop`
 
-<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-loop.png" alt="code:pug-loop">
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/pug/pug-loop.png" alt="code:pug-loop">
 
 <br/>
 
 ### `pug-opi`
 
-<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/pug-opi.png" alt="code:pug-opi">
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/pug/pug-opi.png" alt="code:pug-opi">
 
 <br/>
 
