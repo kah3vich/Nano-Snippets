@@ -33,6 +33,30 @@
 
 <br/>
 
-### `html-img` - 1
+### `html-img`
 
 <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-img.png" alt="code:html-img">
+
+<br/>
+
+### `html-video`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-video.png" alt="code:html-video">
+
+<br/>
+
+### `html-swiper`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-swiper.png" alt="code:html-swiper">
+
+<br/>
+
+### `html-start`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-start.png" alt="code:html-start">
+
+<br/>
+
+### `html-opi`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/html/html-opi.png" alt="code:html-opi">
