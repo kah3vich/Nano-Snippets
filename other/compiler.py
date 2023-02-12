@@ -12,7 +12,7 @@ def compiler(json_file, readme_file):
             snippets_list = data[i]["snippets"]
 
             for j in range(len(snippets_list)): 
-                result += f'### `{snippets_list[j]["name"]}` - {snippets_list[j]["description"]}\n<details>\n\t<summary>Preview code</summary>\n\t<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/{data[i]["title"].lower()}/{snippets_list[j]["name"]}.png" alt="code:{snippets_list[j]["name"]}">\n</details>\n\n<br/>\n\n'
+                result += f'### `{snippets_list[j]["name"]}` - {snippets_list[j]["description"]}\n<details>\n\t<summary>Preview code</summary>\n\t<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/{data[i]["title"].lower()}/{snippets_list[j]["name"]}.png" alt="code:{snippets_list[j]["name"]}">\n</details>\n\n'
 
 
     with open(readme_file, 'w') as f:
