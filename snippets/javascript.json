@@ -1,5 +1,5 @@
 {
-	// JavaScript
+	//! JavaScript
 
 	"✅Snippet: Debugger": {
 		"prefix": "debugger",
@@ -38,7 +38,7 @@
 		"description": "✅Snippet: Try Catch"
 	},
 
-	// React
+	//! React
 
 	"✅Snippet: Functional component": {
 		"prefix": "fc",
@@ -151,7 +151,7 @@
 		"description": "✅Snippet: React Hook useState"
 	},
 
-	// Style (CSS)
+	//! Style (CSS)
 
 	"✅Snippet: Style After": {
 		"prefix": "style-after",
@@ -341,7 +341,7 @@
 		"description": "✅Snippet: Style Text Wrap"
 	},
 
-	// TypeScript
+	//! TypeScript
 
 	"✅Snippet: TypeScript Enum": {
 		"prefix": "enum",
@@ -350,7 +350,7 @@
 	},
 	"✅Snippet: TypeScript Interface ": {
 		"prefix": "interface",
-		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0 "],
+		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0"],
 		"description": "✅Snippet: TypeScript Interface "
 	},
 	"✅Snippet: TypeScript Type": {
@@ -359,7 +359,7 @@
 		"description": "✅Snippet: TypeScript Type"
 	},
 
-	// Jquery
+	//! Jquery
 
 	"✅Snippet: Jquery Add Class": {
 		"prefix": "jq-add",

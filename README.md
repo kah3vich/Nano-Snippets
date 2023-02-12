@@ -29,6 +29,118 @@
 
 <br/>
 
+<details><summary>A dropdown list for markdown</summary>
+
+1.  First item must be preceeded with an empty line.
+1.  Markdown renders **perfectly**.
+1.  Extra item.
+
+</details>
+
+## <details><summary>React Snippets</summary>
+
+<br/>
+
+### `fc`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/fc.png" alt="code:fc">
+
+<br/>
+
+### `mfc`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/mfc.png" alt="code:mfc">
+
+<br/>
+
+### `mtfc`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/mtfc.png" alt="code:mtfc">
+
+<br/>
+
+### `tfc`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/tfc.png" alt="code:tfc">
+
+<br/>
+
+### `useCallback`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useCallback.png" alt="code:useCallback">
+
+<br/>
+
+### `useEffect`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useEffect.png" alt="code:useEffect">
+
+<br/>
+
+### `useId`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useId.png" alt="code:useId">
+
+<br/>
+
+### `useImperativeHandle`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useImperativeHandle.png" alt="code:useImperativeHandle">
+
+<br/>
+
+### `useLayoutEffect`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useLayoutEffect.png" alt="code:useLayoutEffect">
+
+<br/>
+
+### `uselog`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/uselog.png" alt="code:uselog">
+
+<br/>
+
+### `useMemo`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useMemo.png" alt="code:useMemo">
+
+<br/>
+
+### `useRef`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useRef.png" alt="code:useRef">
+
+<br/>
+
+### `useState`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useState.png" alt="code:useState">
+
+</details>
+
+<br/>
+
+## TypeScript Snippets
+
+### `type`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/typescript/type.png" alt="code:type">
+
+<br/>
+
+### `interface`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/typescript/interface.png" alt="code:interface">
+
+<br/>
+
+### `enum`
+
+<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/typescript/enum.png" alt="code:enum">
+
+<br/>
+
 ## HTML Snippets
 
 <br/>
@@ -106,14 +218,6 @@
 <br/>
 
 ## JavaScript Snippets
-
-<br/>
-
-## TypeScript Snippets
-
-<br/>
-
-## React Snippets
 
 <br/>
 
