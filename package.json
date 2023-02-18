@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
-	"version": "0.0.20",
+	"version": "0.0.21",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -102,7 +102,7 @@
 	"scripts": {
 		"build": "vsce package",
 		"vscode:prepublish": "tsc -p ./",
-		"compile": "tsc -watch -p ./",
+		"watcher": "tsc -watch -p ./",
 		"test": "jest --config ./jest.config.js"
 	},
 	"devDependencies": {
