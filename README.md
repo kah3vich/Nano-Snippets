@@ -1,11 +1,13 @@
 <h1 align="center">
-    <br/>
-    <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/logo.png" alt="logo" width="256">
-    <br/>
-    <br/>
-    Nano Snippets
-    <br/>
-    <br/>
+   <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
+        <br/>
+        <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/logo.png" alt="logo" width="256">
+        <br/>
+        <br/>
+        Nano Snippets
+        <br/>
+        <br/>
+    </a>
 </h1>
 
 <h4 align="center">Snippets for various technologies and languages, taking into account all modern trends and rules.</h4>
@@ -435,9 +437,9 @@
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/jest/jest-test.png" alt="code:jest-test">
 </details>
 
-### `jest-expect` - ✅Snippet: Jest-Test Describe
+### `jest-describe` - ✅Snippet: Jest-Test Describe
 
 <details>
 	<summary>Preview code</summary>
-	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/jest/jest-expect.png" alt="code:jest-expect">
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/jest/jest-describe.png" alt="code:jest-describe">
 </details>

@@ -1,11 +1,13 @@
 <h1 align="center">
-    <br/>
-    <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/logo.png" alt="logo" width="256">
-    <br/>
-    <br/>
-    Nano Snippets
-    <br/>
-    <br/>
+   <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
+        <br/>
+        <img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/logo.png" alt="logo" width="256">
+        <br/>
+        <br/>
+        Nano Snippets
+        <br/>
+        <br/>
+    </a>
 </h1>
 
 <h4 align="center">Snippets for various technologies and languages, taking into account all modern trends and rules.</h4>
