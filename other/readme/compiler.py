@@ -4,6 +4,9 @@ def compiler(json_file, readme_file):
 
     result = ''
 
+    with open('./main.md', 'r') as main_text:
+        result += f'{main_text.read()}\n'
+
     with open(json_file, 'r') as f:
         data = json.load(f)['config']
 
