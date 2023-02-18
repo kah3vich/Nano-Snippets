@@ -111,6 +111,19 @@
 
 <br/>
 
+## <b>Jest</b>
+
+<br/>
+
+### `jest-test` - ...
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/jest/jest-test.png" alt="code:jest-test">
+</details>
+
+
+<br/>
+
 ## <b>JavaScript</b>
 
 <br/>

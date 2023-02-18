@@ -18,6 +18,6 @@ def compiler(json_file, readme_file):
     with open(readme_file, 'w') as f:
         f.write(str(result))
 
-    print('Done ✅')
-
 compiler('snippets.json', 'readme.md')
+
+print('Done ✅')

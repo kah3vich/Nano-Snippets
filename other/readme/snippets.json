@@ -75,6 +75,15 @@
 			]
 		},
 		{
+			"title": "Jest",
+			"snippets": [
+				{
+					"name": "jest-test",
+					"description": "..."
+				}
+			]
+		},
+		{
 			"title": "JavaScript",
 			"snippets": [
 				{
