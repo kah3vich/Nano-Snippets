@@ -7,11 +7,15 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
-	"version": "0.0.22",
+	"version": "0.0.23",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
+	"extensionPack": [
+		"kah3vich.import-at-top"
+	],
 	"categories": [
+		"Extension Packs",
 		"Snippets"
 	],
 	"preview": false,
@@ -100,10 +104,11 @@
 	],
 	"homepage": "https://github.com/kah3vich/Nano-Snippets/readme.md",
 	"scripts": {
-		"build": "vsce package",
+		"build": "rm -rf out/ & vsce package",
 		"vscode:prepublish": "tsc -p ./",
 		"watcher": "tsc -watch -p ./",
-		"test": "jest --config ./jest.config.js"
+		"test": "rm -rf out/ & jest --config ./jest.config.js",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@types/jest": "^29.4.0",
@@ -111,6 +116,7 @@
 		"@types/node": "^6.0.40",
 		"@types/vscode": "^1.63.0",
 		"@vscode/test-electron": "^1.6.1",
+		"husky": "^8.0.3",
 		"jest": "^29.4.3",
 		"mocha": "^8.0.1",
 		"ts-jest": "^29.0.5",
