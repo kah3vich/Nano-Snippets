@@ -138,16 +138,28 @@
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/debugger.png" alt="code:debugger">
 </details>
 
+### `mlog` - ✅Snippet: Debugger Console Log
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/mlog.png" alt="code:mlog">
+</details>
+
 ### `js-swiper` - ✅Snippet: JavaScript Swiper
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/js-swiper.png" alt="code:js-swiper">
 </details>
 
-### `log` - ✅Snippet: console.log
+### `log` - ✅Snippet: Console Log
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/log.png" alt="code:log">
+</details>
+
+### `mlog` - ✅Snippet: Message Console Log
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/mlog.png" alt="code:mlog">
 </details>
 
 ### `settime` - ✅Snippet: setTimeout
@@ -262,6 +274,12 @@
 
 <br/>
 
+### `mpy` - ✅Snippet: Python Message Print
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/python/mpy.png" alt="code:mpy">
+</details>
+
 ### `py` - ✅Snippet: Python Print
 <details>
 	<summary>Preview code</summary>
@@ -339,6 +357,12 @@
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useMemo.png" alt="code:useMemo">
+</details>
+
+### `useMount` - ✅Snippet: useMount - Custom hook
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/useMount.png" alt="code:useMount">
 </details>
 
 ### `useRef` - ✅Snippet: React Hook useRef
