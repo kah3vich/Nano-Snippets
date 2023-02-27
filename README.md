@@ -149,11 +149,11 @@
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/debugger.png" alt="code:debugger">
 </details>
 
-### `mlog` - ✅Snippet: Debugger Console Log
+### `dlog` - ✅Snippet: Debugger Console Log
 
 <details>
 	<summary>Preview code</summary>
-	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/mlog.png" alt="code:mlog">
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/dlog.png" alt="code:dlog">
 </details>
 
 ### `js-swiper` - ✅Snippet: JavaScript Swiper
