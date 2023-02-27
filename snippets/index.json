@@ -322,6 +322,12 @@
 		"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
 	},
 
+	"✅Snippet: Debugger Console Log": {
+		"prefix": "mlog",
+		"body": ["debugger; // TODO: debugger", "console.log('⌛ ${1:debugger}')", "$0"],
+		"description": "✅Snippet: Debugger Console Log"
+	},
+
 	"✅Snippet: JavaScript Swiper": {
 		"prefix": "js-swiper",
 		"body": [
@@ -339,10 +345,16 @@
 		"description": "✅Snippet: JavaScript Swiper"
 	},
 
-	"✅Snippet: console.log": {
+	"✅Snippet: Console Log": {
 		"prefix": "log",
 		"body": ["console.log('✅ ${1:element}    ', ${1:element})", "$0"],
-		"description": "✅Snippet: console.log"
+		"description": "✅Snippet: Console Log"
+	},
+
+	"✅Snippet: Message Console Log": {
+		"prefix": "mlog",
+		"body": ["console.log('🌠 ${1:message}')", "$0"],
+		"description": "✅Snippet: Message Console Log"
 	},
 
 	"✅Snippet: setTimeout": {
@@ -499,6 +511,12 @@
 
 	//| python
 
+	"✅Snippet: Python Message Print": {
+		"prefix": "mpy",
+		"body": ["print('🌠 ${1:message}')", "$0"],
+		"description": "✅Snippet: Python Message Print"
+	},
+
 	"✅Snippet: Python Print": {
 		"prefix": "py",
 		"body": ["print('✅ ${1:element}    ', ${1:element})", "$0"],
@@ -616,6 +634,12 @@
 		"prefix": "useMemo",
 		"body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
 		"description": "✅Snippet: React Hook useMemo - memosations of meaning"
+	},
+
+	"✅Snippet: useMount - Custom hook": {
+		"prefix": "useMount",
+		"body": ["useMount(() => {", "\t${1:code}", "})", "$0"],
+		"description": "✅Snippet: useMount - Custom hook"
 	},
 
 	"✅Snippet: React Hook useRef": {
