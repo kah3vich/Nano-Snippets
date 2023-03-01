@@ -31,6 +31,62 @@
 
 <br/>
 
+<table align="center">
+    <tr>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/react.png" width="48" height="48" alt="React" />
+            </a>
+            <br />
+            <p>React</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/javascript.png" width="48" height="48" alt="JavaScript" />
+            </a>
+            <br />
+            <p>JavaScript</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/python.png" width="48" height="48" alt="Python" />
+            </a>
+            <br />
+            <p>Python</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/html5.png" width="48" height="48" alt="HTML" />
+            </a>
+            <br />
+            <p>HTML</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/css3.png" width="48" height="48" alt="CSS" />
+            </a>
+            <br />
+            <p>CSS</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/scss.png" width="48" height="48" alt="SCSS" />
+            </a>
+            <br />
+            <p>SCSS</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/pug.png" width="48" height="48" alt="Pug" />
+            </a>
+            <br />
+            <p>Pug</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+
 > ## Snippets list:
 
 
