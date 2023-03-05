@@ -63,7 +63,7 @@
         </td>
         <td align="center" width="96">
             <a href="#">
-                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/css3.png" width="40" height="48" alt="CSS" />
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/css3.png" width="36" height="48" alt="CSS" />
             </a>
             <br />
             <p>CSS</p>

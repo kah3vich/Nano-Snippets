@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Snippets"
 	},
-	"version": "0.0.27",
+	"version": "0.0.28",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -106,7 +106,7 @@
 	],
 	"homepage": "https://github.com/kah3vich/Nano-Snippets/readme.md",
 	"scripts": {
-		"build": "rm -rf out/ & vsce package",
+		"build": "rm -rf out/ & rm -rf *.vsix & vsce package",
 		"vscode:prepublish": "tsc -p ./",
 		"watcher": "tsc -watch -p ./",
 		"test": "rm -rf out/ & jest --config ./jest.config.js",
