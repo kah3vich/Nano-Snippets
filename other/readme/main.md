@@ -70,17 +70,33 @@
         </td>
         <td align="center" width="96">
             <a href="#">
-                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/scss.png" width="48" height="48" alt="SCSS" />
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/scss.png" width="56" height="48" alt="SCSS" />
             </a>
             <br />
             <p>SCSS</p>
         </td>
+    </tr>
+    <tr>
         <td align="center" width="96">
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/pug.png" width="48" height="48" alt="Pug" />
             </a>
             <br />
             <p>Pug</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/jest.png" width="48" height="48" alt="Jest" />
+            </a>
+            <br />
+            <p>Jest</p>
+        </td>
+        <td align="center" width="96">
+            <a href="#">
+                <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/nestjs.png" width="48" height="48" alt="NestJS" />
+            </a>
+            <br />
+            <p>NestJS</p>
         </td>
     </tr>
 </table>
