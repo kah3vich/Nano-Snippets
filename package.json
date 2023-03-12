@@ -1,7 +1,7 @@
 {
-	"name": "nanosnippets",
+	"name": "nano-snippets",
 	"publisher": "kah3vich",
-	"displayName": "Nano-Snippets",
+	"displayName": "Nano Snippets",
 	"description": "Snippets for various technologies and languages, taking into account all modern trends and rules.",
 	"repository": {
 		"type": "git",
@@ -12,7 +12,9 @@
 		"vscode": "^1.63.0"
 	},
 	"extensionPack": [
-		"kah3vich.import-at-top"
+		"kah3vich.import-at-top",
+		"kah3vich.nano-refactor",
+		"kah3vich.holdesher"
 	],
 	"categories": [
 		"Extension Packs",
@@ -20,8 +22,8 @@
 	],
 	"preview": false,
 	"galleryBanner": {
-		"color": "#ffffff",
-		"theme": "light"
+		"color": "#20232A",
+		"theme": "dark"
 	},
 	"main": "./out/src/extension.js",
 	"browser": "./out/src/extension.js",
@@ -75,7 +77,7 @@
 		"onCommand:nano-snippets"
 	],
 	"icon": "assets/logo.png",
-	"license": "GPL-3.0-only",
+	"license": "MIT",
 	"author": {
 		"name": "kah3vich",
 		"url": "https://github.com/kah3vich",
@@ -86,6 +88,8 @@
 		"email": "holdesher@ro.ru"
 	},
 	"keywords": [
+		"kah3vich",
+		"holdesher",
 		"nano",
 		"snippets",
 		"nanosnippets",
