@@ -33,6 +33,8 @@
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
+<br />
+
 <table align="center">
     <tr>
         <td align="center" width="100">
