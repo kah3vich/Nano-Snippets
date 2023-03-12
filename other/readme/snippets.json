@@ -134,6 +134,15 @@
 			]
 		},
 		{
+			"title": "nestjs",
+			"snippets": [
+				{
+					"name": "get",
+					"description": "✅Snippet: Get Method"
+				}
+			]
+		},
+		{
 			"title": "pug",
 			"snippets": [
 				{
