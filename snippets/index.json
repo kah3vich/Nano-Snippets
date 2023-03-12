@@ -420,6 +420,14 @@
 		"description": "✅Snippet: Jquery Remove Class"
 	},
 
+	//| nestjs
+
+	"✅Snippet: Get Method": {
+		"prefix": "get",
+		"body": ["@Get(${1:path})", "getName(): ${2:type} {", "    return ${3:code}", "}", "$0"],
+		"description": "✅Snippet: Get Method"
+	},
+
 	//| pug
 
 	"✅Snippet: Pug Img": {
