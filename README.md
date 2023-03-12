@@ -36,7 +36,6 @@
 <table align="center">
     <tr>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/react.png" width="48" height="48" alt="React" />
             </a>
@@ -44,7 +43,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=React" width="100" height="20" alt="React" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/javascript.png" width="48" height="48" alt="JavaScript" />
             </a>
@@ -52,7 +50,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=JavaScript" width="100" height="20" alt="JavaScript" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/python.png" width="48" height="48" alt="Python" />
             </a>
@@ -60,7 +57,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Python" width="100" height="20" alt="Python" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/html5.png" width="48" height="48" alt="HTML" />
             </a>
@@ -68,7 +64,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=HTML" width="100" height="20" alt="HTML" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/css3.png" width="36" height="48" alt="CSS" />
             </a>
@@ -78,7 +73,6 @@
     </tr>
     <tr>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/scss.png" width="56" height="48" alt="SCSS" />
             </a>
@@ -86,7 +80,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=SCSS" width="100" height="20" alt="SCSS" />
         </td>
         <td align="center" width="100"> 
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/pug.png" width="48" height="48" alt="Pug" />
             </a>
@@ -94,7 +87,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Pug" width="100" height="20" alt="Pug" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/jest.png" width="48" height="48" alt="Jest" />
             </a>
@@ -102,7 +94,6 @@
             <img src="https://svg-readme.vercel.app/readme/svg?type=span&content=Jest" width="100" height="20" alt="Jest" />
         </td>
         <td align="center" width="100">
-            <br />
             <a href="#">
                 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/img/nestjs.png" width="48" height="48" alt="NestJS" />
             </a>
