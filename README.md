@@ -109,7 +109,7 @@
 
 <br />
 
-> ## <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=Snippets||list:" width="100%" height="23" alt="title snippets" />
+> <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=Snippets||list:" width="100%" height="28" alt="title snippets" />
 
 <br/>
 
