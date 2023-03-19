@@ -43,6 +43,7 @@
 <br />
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+
 <br />
 
 ### RELEASE: v0.0.29-v0.0.32 - March 12, 2023
@@ -50,6 +51,20 @@
 <br />
 
 > ### 📦 FEAT: Readme & Package config & Snippet for NestJS
+
+<br />
+
+<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+
+<br />
+
+### RELEASE: v0.0.33 - March -, 2023
+
+<br />
+
+> ### 📦 FEAT: snippets syntax for nestjs
+
+> ### 🐛 FIX: compiler for readme & main file snippets
 
 <br />
 

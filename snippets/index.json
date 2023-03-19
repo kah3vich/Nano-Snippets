@@ -1,20 +1,21 @@
 {
+
 	//| css
 
-	"✅Snippet: CSS After": {
-		"prefix": "css-after",
-		"body": [
-			":after {",
-			"\tcontent: '';",
-			"\tposition: absolute;",
-			"\ttop: ${1:top};",
-			"\tleft: ${2:left};",
-			"\t$0",
-			"}",
-			""
-		],
-		"description": "✅Snippet: CSS After"
-	},
+    "✅Snippet: CSS After": {
+        "prefix": "css-after",
+        "body": [
+            ":after {",
+            "\tcontent: '';",
+            "\tposition: absolute;",
+            "\ttop: ${1:top};",
+            "\tleft: ${2:left};",
+            "\t$0",
+            "}",
+            ""
+        ],
+        "description": "✅Snippet: CSS After",
+    },
 
 	"✅Snippet: CSS Base": {
 		"prefix": "css-base",
@@ -121,7 +122,7 @@
 			"",
 			"$0"
 		],
-		"description": "✅Snippet: CSS Base"
+		"description": "✅Snippet: CSS Base",
 	},
 
 	"✅Snippet: CSS Before": {
@@ -136,7 +137,7 @@
 			"}",
 			""
 		],
-		"description": "✅Snippet: CSS Before"
+		"description": "✅Snippet: CSS Before",
 	},
 
 	"✅Snippet: CSS Flex Scheme": {
@@ -150,7 +151,7 @@
 			"flex-wrap: ${5:no-wrap};",
 			"$0"
 		],
-		"description": "✅Snippet: CSS Flex Scheme"
+		"description": "✅Snippet: CSS Flex Scheme",
 	},
 
 	"✅Snippet: CSS Text Limit": {
@@ -163,13 +164,13 @@
 			"-webkit-box-orient: vertical;",
 			"$0"
 		],
-		"description": "✅Snippet: CSS Text Limit"
+		"description": "✅Snippet: CSS Text Limit",
 	},
 
 	"✅Snippet: CSS Transition": {
 		"prefix": "css-trans",
 		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
-		"description": "✅Snippet: CSS Transition"
+		"description": "✅Snippet: CSS Transition",
 	},
 
 	"✅Snippet: CSS Transparent Text": {
@@ -179,7 +180,7 @@
 			"-webkit-text-stroke: ${1:size}px ${2:color};",
 			"$0"
 		],
-		"description": "✅Snippet: CSS Transparent Text"
+		"description": "✅Snippet: CSS Transparent Text",
 	},
 
 	"✅Snippet: CSS Text Wrap": {
@@ -193,7 +194,7 @@
 			"hyphens: auto;",
 			"$0"
 		],
-		"description": "✅Snippet: CSS Text Wrap"
+		"description": "✅Snippet: CSS Text Wrap",
 	},
 
 	//| html
@@ -201,7 +202,7 @@
 	"✅Snippet: HTML Img": {
 		"prefix": "html-img",
 		"body": ["<img src=\"${1:path}\" alt=\"${2:alt}\" />", "$0"],
-		"description": "✅Snippet: HTML Img"
+		"description": "✅Snippet: HTML Img",
 	},
 
 	"✅Snippet: HTML Optimization Image": {
@@ -257,30 +258,30 @@
 			"</picture>",
 			"$0"
 		],
-		"description": "✅Snippet: HTML Optimization Image"
+		"description": "✅Snippet: HTML Optimization Image",
 	},
 
 	"✅Snippet: HTML Start": {
 		"prefix": "html-start",
 		"body": [
 			"<!DOCTYPE html>",
-			"<html lang=\"ru\">",
-			"\t<head>",
-			"\t\t<meta charset=\"utf-8\">",
-			"\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
-			"\t\t<title>HTML Title</title>",
-			"\t\t<meta name=\"theme-color\" content=\"#ffffff\">",
-			"\t\t<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">",
-			"\t\t<link rel=\"stylesheet\" href=\"css/style.css\">",
-			"\t</head>",
-			"\t<body>",
-			"\t\t",
-			"\t\t<script src=\"js/main.js\"></script>",
-			"\t</body>",
-			"</html>",
+            "<html lang=\"ru\">",
+            "\t<head>",
+            "\t\t<meta charset=\"utf-8\">",
+            "\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "\t\t<title>HTML Title</title>",
+            "\t\t<meta name=\"theme-color\" content=\"#ffffff\">",
+            "\t\t<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">",
+            "\t\t<link rel=\"stylesheet\" href=\"css/style.css\">",
+            "\t</head>",
+            "\t<body>",
+            "\t\t",
+            "\t\t<script src=\"js/main.js\"></script>",
+            "\t</body>",
+            "</html>",
 			"$0"
 		],
-		"description": "✅Snippet: HTML Start"
+		"description": "✅Snippet: HTML Start",
 	},
 
 	"✅Snippet: HTML Swiper": {
@@ -298,7 +299,7 @@
 			"</div>",
 			"$0"
 		],
-		"description": "✅Snippet: HTML Swiper"
+		"description": "✅Snippet: HTML Swiper",
 	},
 
 	"✅Snippet: HTML Video": {
@@ -311,7 +312,7 @@
 			"</video>",
 			"$0"
 		],
-		"description": "✅Snippet: HTML Video"
+		"description": "✅Snippet: HTML Video",
 	},
 
 	//| javascript
@@ -319,14 +320,14 @@
 	"✅Snippet: Debugger": {
 		"prefix": "debugger",
 		"body": ["debugger; // TODO: debugger", "$0"],
-		"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'"
+		"description": "✅Snippet: Debugger - for the snippet to work correctly, you need to use the extension - 'Todo Tree'",
 	},
 
-	"✅Snippet: Debugger Console Log": {
-		"prefix": "dlog",
-		"body": ["debugger; // TODO: debugger", "console.log('⌛ ${1:debugger}')", "$0"],
-		"description": "✅Snippet: Debugger Console Log"
-	},
+    "✅Snippet: Debugger Console Log": {
+        "prefix": "dlog",
+        "body": ["debugger; // TODO: debugger", "console.log('⌛ ${1:debugger}')", "$0"],
+        "description": "✅Snippet: Debugger Console Log",
+    },
 
 	"✅Snippet: JavaScript Swiper": {
 		"prefix": "js-swiper",
@@ -342,45 +343,65 @@
 			"});",
 			"$0"
 		],
-		"description": "✅Snippet: JavaScript Swiper"
+		"description": "✅Snippet: JavaScript Swiper",
 	},
 
-	"✅Snippet: Console Log": {
-		"prefix": "log",
-		"body": ["console.log('✅ ${1:element}    ', ${1:element})", "$0"],
-		"description": "✅Snippet: Console Log"
-	},
+    "✅Snippet: Console Log": {
+        "prefix": "log",
+        "body": ["console.log('✅ ${1:element}    ', ${1:element})", "$0"],
+        "description": "✅Snippet: Console Log",
+    },
 
-	"✅Snippet: Message Console Log": {
-		"prefix": "mlog",
-		"body": ["console.log('🌠 ${1:message}')", "$0"],
-		"description": "✅Snippet: Message Console Log"
-	},
+    "✅Snippet: Message Console Log": {
+        "prefix": "mlog",
+        "body": ["console.log('🌠 ${1:message}')", "$0"],
+        "description": "✅Snippet: Message Console Log",
+    },
 
-	"✅Snippet: setTimeout": {
-		"prefix": "settime",
-		"body": ["setTimeout(() => {", "\t${1:code}", "}, ${2:timeout});", "$0"],
-		"description": "✅Snippet: setTimeout"
-	},
+    "✅Snippet: setTimeout": {
+        "prefix": "settime",
+        "body": [
+            "setTimeout(() => {",
+            "\t${1:code}",
+            "}, ${2:timeout});",
+            "$0"
+        ],
+        "description": "✅Snippet: setTimeout",
+    },
 
 	"✅Snippet: Try Catch": {
 		"prefix": "try",
-		"body": ["try {", "\t${1:code}", "} catch (e) {", "\tconsole.error('Error', e)", "}", "$0"],
-		"description": "✅Snippet: Try Catch"
+		"body": [
+			"try {",
+			"\t${1:code}",
+			"} catch (e) {",
+			"\tconsole.error('Error', e)",
+			"}",
+			"$0"
+		],
+		"description": "✅Snippet: Try Catch",
 	},
 
 	//| jest
 
 	"✅Snippet: Jest-Test Describe": {
 		"prefix": "jest-describe",
-		"body": ["describe('${1:Name}', () => {", "\t${2:tests}", "});", "$0"],
-		"description": "✅Snippet: Jest-Test Describe"
+		"body": [
+            "describe('${1:Name}', () => {",
+            "\t${2:tests}",
+            "});",
+			"$0"
+		],
+		"description": "✅Snippet: Jest-Test Describe",
 	},
 
 	"✅Snippet: Jest-Test Expect": {
 		"prefix": "jest-expect",
-		"body": ["expect(${1:code}).${2:matchers}(${3:value});", "$0"],
-		"description": "✅Snippet: Jest-Test Expect"
+		"body": [
+			"expect(${1:code}).${2:matchers}(${3:value});",
+			"$0"
+		],
+		"description": "✅Snippet: Jest-Test Expect",
 	},
 
 	"✅Snippet: Jest-Test Base Test": {
@@ -388,10 +409,10 @@
 		"body": [
 			"test('${1:Name}', () => {",
 			"\texpect(${2:code}).${3:matchers}(${4:value});",
-			"});",
+			"});", 
 			"$0"
 		],
-		"description": "✅Snippet: Jest-Test Base Test"
+		"description": "✅Snippet: Jest-Test Base Test",
 	},
 
 	//| jquery
@@ -399,33 +420,44 @@
 	"✅Snippet: Jquery Add Class": {
 		"prefix": "jq-add",
 		"body": ["$('${1:name}').addClass('${2:class}');", "$0"],
-		"description": "✅Snippet: Jquery Add Class"
+		"description": "✅Snippet: Jquery Add Class",
 	},
 
 	"✅Snippet: Jquery On": {
 		"prefix": "jq-on",
-		"body": ["$('${1:name}').on('${2:params}', function (e) {", "\t${3:code}", "});", "$0"],
-		"description": "✅Snippet: Jquery On"
+		"body": [
+			"$('${1:name}').on('${2:params}', function (e) {",
+			"\t${3:code}",
+			"});",
+			"$0"
+		],
+		"description": "✅Snippet: Jquery On",
 	},
 
 	"✅Snippet: Jquery Ready": {
 		"prefix": "jq-ready",
 		"body": ["$(document).ready(function () {", "\t${1:code}", "});", "$0"],
-		"description": "✅Snippet: Jquery Ready"
+		"description": "✅Snippet: Jquery Ready",
 	},
 
 	"✅Snippet: Jquery Remove Class": {
 		"prefix": "jq-remove",
 		"body": ["$('${1:name}').removeClass('${2:class}');", "$0"],
-		"description": "✅Snippet: Jquery Remove Class"
+		"description": "✅Snippet: Jquery Remove Class",
 	},
 
 	//| nestjs
 
 	"✅Snippet: Get Method": {
 		"prefix": "get",
-		"body": ["@Get(${1:path})", "getName(): ${2:type} {", "    return ${3:code}", "}", "$0"],
-		"description": "✅Snippet: Get Method"
+		"body": ["@Get(${1:path})", "get${2:Name}(): ${3:type} {", "\treturn ${4:code}", "}", "$0"],
+		"description": "✅Snippet: Get Method",
+	},
+
+	"✅Snippet: Post Method": {
+		"prefix": "post",
+		"body": ["@Post(${1:path})", "post${2:Name}(): ${3:type} {", "\treturn ${4:code}", "}", "$0"],
+		"description": "✅Snippet: Post Method",
 	},
 
 	//| pug
@@ -433,13 +465,13 @@
 	"✅Snippet: Pug Img": {
 		"prefix": "pug-img",
 		"body": ["img(src=\"${1:path}\" alt=\"${2:alt}\")", "$0"],
-		"description": "✅Snippet: Pug Img"
+		"description": "✅Snippet: Pug Img",
 	},
 
 	"✅Snippet: Pug Loop": {
 		"prefix": "pug-loop",
 		"body": ["each _, i in Array(${1:count})", "$0"],
-		"description": "✅Snippet: Pug Loop"
+		"description": "✅Snippet: Pug Loop",
 	},
 
 	"✅Snippet: Pug Optimization Image": {
@@ -487,7 +519,7 @@
 			"\timg(src=\"${1:path}.png\" srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" alt=\"image\")",
 			"$0"
 		],
-		"description": "✅Snippet: Pug Optimization Image"
+		"description": "✅Snippet: Pug Optimization Image",
 	},
 
 	"✅Snippet: Pug Swiper": {
@@ -502,7 +534,7 @@
 			"\t\t.swiper-pagination",
 			"$0"
 		],
-		"description": "✅Snippet: Pug Swiper"
+		"description": "✅Snippet: Pug Swiper",
 	},
 
 	"✅Snippet: Pug Video": {
@@ -514,22 +546,28 @@
 			"\tsource(src=\"${2:path}.ogv\" type='video/ogg; codecs=\"theora, vorbis\"') ",
 			"$0"
 		],
-		"description": "✅Snippet: Pug Video"
+		"description": "✅Snippet: Pug Video",
 	},
 
 	//| python
 
-	"✅Snippet: Python Message Print": {
-		"prefix": "mpy",
-		"body": ["print('🌠 ${1:message}')", "$0"],
-		"description": "✅Snippet: Python Message Print"
-	},
+    "✅Snippet: Python Message Print": {
+        "prefix": "mpy",
+        "body": [
+            "print('🌠 ${1:message}')",
+            "$0"
+        ],
+        "description": "✅Snippet: Python Message Print",
+    },
 
-	"✅Snippet: Python Print": {
-		"prefix": "py",
-		"body": ["print('✅ ${1:element}    ', ${1:element})", "$0"],
-		"description": "✅Snippet: Python Print"
-	},
+    "✅Snippet: Python Print": {
+        "prefix": "py",
+        "body": [
+            "print('✅ ${1:element}    ', ${1:element})",
+            "$0"
+        ],
+        "description": "✅Snippet: Python Print",
+    },
 
 	//| react
 
@@ -543,7 +581,7 @@
 			"}",
 			"$0"
 		],
-		"description": "✅Snippet: Functional Component"
+		"description": "✅Snippet: Functional Component",
 	},
 
 	"✅Snippet: Memo Functional Component": {
@@ -558,140 +596,175 @@
 			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
 			"$0"
 		],
-		"description": "✅Snippet: Memo Functional Component"
+		"description": "✅Snippet: Memo Functional Component",
 	},
 
-	"✅Snippet: Memo TypeScript Functional Component": {
-		"prefix": "mtfc",
-		"body": [
-			"import React from 'react'",
-			"",
-			"export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
-			"\tdata: string;",
-			"}",
-			"",
-			"const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
-			"\treturn <>{data}</>",
-			"}",
-			"",
-			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
-			"$0"
-		],
-		"description": "✅Snippet: Memo TypeScript Functional Component"
-	},
+    "✅Snippet: Memo TypeScript Functional Component": {
+        "prefix": "mtfc",
+        "body": [
+            "import React from 'react'",
+            "",
+            "export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
+            "\tdata: string;",
+            "}",
+            "",
+            "const _${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ data }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
+            "\treturn <>{data}</>",
+            "}",
+            "",
+            "export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
+            "$0"
+        ],
+        "description": "✅Snippet: Memo TypeScript Functional Component",
+    },
 
-	"✅Snippet: TypeScript Functional Component": {
-		"prefix": "tfc",
-		"body": [
-			"import React from 'react'",
-			"",
-			"export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
-			"\tchildren: React.ReactNode;",
-			"}",
-			"",
-			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ children }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
-			"\treturn <>{children}</>",
-			"}",
-			"$0"
-		],
-		"description": "✅Snippet: TypeScript Functional Component"
-	},
+    "✅Snippet: TypeScript Functional Component": {
+        "prefix": "tfc",
+        "body": [
+            "import React from 'react'",
+            "",
+            "export type T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props = {",
+            "\tchildren: React.ReactNode;",
+            "}",
+            "",
+            "export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ children }: T${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}}Props) => {",
+            "\treturn <>{children}</>",
+            "}",
+            "$0"
+        ],
+        "description": "✅Snippet: TypeScript Functional Component",
+    },
 
-	"✅Snippet: React Hook useCallback - memosations of function": {
-		"prefix": "useCallback",
-		"body": ["useCallback(() => ${1:code}, [${2:dependencies}])", "$0"],
-		"description": "✅Snippet: React Hook useCallback - memosations of function"
-	},
+    "✅Snippet: React Hook useCallback - memosations of function": {
+        "prefix": "useCallback",
+        "body": ["useCallback(() => ${1:code}, [${2:dependencies}])", "$0"],
+        "description": "✅Snippet: React Hook useCallback - memosations of function",
+    },
 
-	"✅Snippet: React Hook useEffect": {
-		"prefix": "useEffect",
-		"body": ["useEffect(() => {", "\t${1:code}", "}, [${2:dependencies}]);", "$0"],
-		"description": "✅Snippet: React Hook useEffect"
-	},
+    "✅Snippet: React Hook useEffect": {
+        "prefix": "useEffect",
+        "body": [ 
+            "useEffect(() => {",
+            "\t${1:code}",
+            "}, [${2:dependencies}]);",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useEffect",
+    },
 
 	"✅Snippet: React Hook useId": {
 		"prefix": "useId",
 		"body": ["const id${1:Name} = useId()", "$0"],
-		"description": "✅Snippet: React Hook useId"
+		"description": "✅Snippet: React Hook useId",
 	},
 
-	"✅Snippet: React Hook useImperativeHandle": {
-		"prefix": "useImperativeHandle",
-		"body": ["useImperativeHandle(${1:ref}, () => ({", "\t${2:code}", "}));", "$0"],
-		"description": "✅Snippet: React Hook useImperativeHandle"
-	},
+    "✅Snippet: React Hook useImperativeHandle": {
+        "prefix": "useImperativeHandle",
+        "body": [ 
+            "useImperativeHandle(${1:ref}, () => ({",
+            "\t${2:code}",
+            "}));",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useImperativeHandle",
+    },
 
-	"✅Snippet: React Hook useLayoutEffect": {
-		"prefix": "useLayoutEffect",
-		"body": ["useLayoutEffect(() => {", "\t${1:code}", "}, [${2:dependencies}]);", "$0"],
-		"description": "✅Snippet: React Hook useLayoutEffect"
-	},
+    "✅Snippet: React Hook useLayoutEffect": {
+        "prefix": "useLayoutEffect",
+        "body": [ 
+            "useLayoutEffect(() => {",
+            "\t${1:code}",
+            "}, [${2:dependencies}]);",
+            "$0"
+        ],
+        "description": "✅Snippet: React Hook useLayoutEffect",
+    },
 
-	"✅Snippet: useEffect -> console.log": {
-		"prefix": "uselog",
-		"body": [
-			"useEffect(() => {",
-			"\tconsole.log('✅ ${1:element}    ', ${1:element})",
-			"}, [${1:element}])",
-			"$0"
-		],
-		"description": "✅Snippet: useEffect -> console.log"
-	},
+    "✅Snippet: useEffect -> console.log": {
+        "prefix": "uselog",
+        "body": [
+            "useEffect(() => {",
+            "\tconsole.log('✅ ${1:element}    ', ${1:element})",
+            "}, [${1:element}])",
+            "$0"
+        ],
+        "description": "✅Snippet: useEffect -> console.log",
+    },
 
-	"✅Snippet: React Hook useMemo - memosations of meaning": {
-		"prefix": "useMemo",
-		"body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
-		"description": "✅Snippet: React Hook useMemo - memosations of meaning"
-	},
+    "✅Snippet: React Hook useMemo - memosations of meaning": {
+        "prefix": "useMemo",
+        "body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
+        "description": "✅Snippet: React Hook useMemo - memosations of meaning",
+    },
 
-	"✅Snippet: useMount - Custom hook": {
-		"prefix": "useMount",
-		"body": ["useMount(() => {", "\t${1:code}", "})", "$0"],
-		"description": "✅Snippet: useMount - Custom hook"
-	},
+    "✅Snippet: useMount - Custom hook": {
+        "prefix": "useMount",
+        "body": [
+            "useMount(() => {",
+            "\t${1:code}",
+            "})",
+            "$0"
+        ],
+        "description": "✅Snippet: useMount - Custom hook",
+    },
 
 	"✅Snippet: React Hook useRef": {
 		"prefix": "useRef",
 		"body": ["const ref${1:Name} = useRef(null)", "$0"],
-		"description": "✅Snippet: React Hook useRef"
+		"description": "✅Snippet: React Hook useRef",
 	},
 
-	"✅Snippet: React Hook useState": {
-		"prefix": "useState",
-		"body": ["const [${1:value}, set${2:Change}] = useState(null);", "$0"],
-		"description": "✅Snippet: React Hook useState"
-	},
+    "✅Snippet: React Hook useState": {
+        "prefix": "useState",
+        "body": ["const [${1:value}, set${2:Change}] = useState(null);", "$0"],
+        "description": "✅Snippet: React Hook useState",
+    },
 
 	//| scss
 
 	"✅Snippet: SCSS Flex Mixin": {
 		"prefix": "scss-flex",
-		"body": ["@include flexStyle(${1:flex-start}, ${2:flex-start}, ${3:row}, ${4:0px});", "$0"],
-		"description": "✅Snippet: SCSS Flex Mixin"
+		"body": [
+			"@include flexStyle(${1:flex-start}, ${2:flex-start}, ${3:row}, ${4:0px});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Flex Mixin",
 	},
 
 	"✅Snippet: SCSS Font Mixin": {
 		"prefix": "scss-font",
-		"body": ["@include fontStyle(${1:16px}, ${2:400}, ${3:20px}, ${4:#ffffff});", "$0"],
-		"description": "✅Snippet: SCSS Font Mixin"
+		"body": [
+			"@include fontStyle(${1:16px}, ${2:400}, ${3:20px}, ${4:#ffffff});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Font Mixin",
 	},
 
 	"✅Snippet: SCSS Grid Mixin": {
 		"prefix": "scss-grid",
-		"body": ["@include gridStyle(${1:auto}, ${2:auto}, ${3:0px});", "$0"],
-		"description": "✅Snippet: SCSS Grid Mixin"
+		"body": [
+			"@include gridStyle(${1:auto}, ${2:auto}, ${3:0px});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Grid Mixin",
 	},
 
 	"✅Snippet: SCSS Img Mixin": {
 		"prefix": "scss-img",
-		"body": ["@include imgFullSize();", "$0"],
-		"description": "✅Snippet: SCSS Img Mixin"
+		"body": [
+			"@include imgFullSize();",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Img Mixin",
 	},
 
 	"✅Snippet: SCSS Transition Mixin": {
 		"prefix": "scss-transition",
-		"body": ["@include transitionStyle(${1:0.5s}, ${2:ease});", "$0"],
-		"description": "✅Snippet: SCSS Transition Mixin"
+		"body": [
+			"@include transitionStyle(${1:0.5s}, ${2:ease});",
+			"$0"
+		],
+		"description": "✅Snippet: SCSS Transition Mixin",
 	},
 
 	//| typescript
@@ -699,20 +772,21 @@
 	"✅Snippet: TypeScript Enum": {
 		"prefix": "enum",
 		"body": ["export enum E${1:Name} {", "    ${2:code}", "}", "$0"],
-		"description": "✅Snippet: TypeScript Enum"
+		"description": "✅Snippet: TypeScript Enum",
 	},
 
 	"✅Snippet: TypeScript Interface ": {
 		"prefix": "interface",
 		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0"],
-		"description": "✅Snippet: TypeScript Interface "
+		"description": "✅Snippet: TypeScript Interface ",
 	},
 
 	"✅Snippet: TypeScript Type": {
 		"prefix": "type",
 		"body": ["export type T${1:Name} = {", "    ${2:code}", "}", "$0"],
-		"description": "✅Snippet: TypeScript Type"
-	}
+		"description": "✅Snippet: TypeScript Type",
+	},
+
 }
 
 //| 🔥 by kah3vich 🔥
