@@ -1,3 +1,4 @@
 - [ ] Ссылка на раздел в readme.
 - [ ] Исправить css snippets.
 - [ ] Добавить для nestjs сниппеты ( Inj, meth, serv )
+- [ ] React snippests fix.
