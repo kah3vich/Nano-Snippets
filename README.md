@@ -1,3 +1,5 @@
+> ❗ Repository has moved and been archived [Here](https://github.com/Holdesher/Nano-Snippets)
+
 <div align="center">
    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets">
         <br/>
